@@ -211,6 +211,11 @@ if __name__ == "__main__":
 
                 if count_of_records_to_display.isdigit():
                     list_of_data_from_file = reading_history_from_file()
+
+                    if type(list_of_data_from_file) == type(None):
+                        print("Записей не было")
+                        break
+
                     list_of_data_from_file.reverse()
                     len_list_of_data = len(list_of_data_from_file)
 
