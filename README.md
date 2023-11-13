@@ -2,7 +2,7 @@
 
 1. Необходимо установить интерпретатор [python](https://www.python.org/downloads/) версии 3.11.5 или выше;
 2. Выбрать папку для скачивания приложения, скачать. Это можно сделать при помощи консольной команды: git clone url-репозитория
-3. В папке с файлами приложения создать виртуальное окружение с помощью консольной команды python -m venv name, активировать его командой venv\Scripts\activate.bat для Windows или source venv/bin/activate для Linux и MacOS.
+3. В папке с файлами приложения создать виртуальное окружение с помощью консольной команды python -m venv {venv name}, активировать его командой venv\Scripts\activate.bat для Windows или source venv/bin/activate для Linux и MacOS.
 4. Установить требуемые библиотеки в активированное виртуальное окружение командой pip install -r requirements.txt
 5. Для запуска приложения введите команду в консоли python main.py
 
