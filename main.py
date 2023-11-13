@@ -186,7 +186,7 @@ def recording_history_to_file(data: dict):
 
             if data != None:
                 list_to_recorrding.append(data)
-                file.write(json.dumps(list_to_recorrding, indent=4, ensure_ascii=False))
+                file.write(json.dumps(list_to_recorrding, indent=4, ensure_ascii=True))
 
 
 if __name__ == "__main__":
